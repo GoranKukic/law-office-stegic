@@ -9,7 +9,12 @@ import dynamic from "next/dynamic";
 
 const LanguageSwitcher = dynamic(() => import("../Navbar/LanguageSwitcher"), { ssr: false });
 
-const MobileNav = ({ open, setOpen }) => {
+interface MobileNavProps {
+  open: boolean;
+  setOpen: (value: boolean) => void;
+}
+
+const MobileNav: React.FC<MobileNavProps> = ({ open, setOpen }) => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'en' ? en : sr;
