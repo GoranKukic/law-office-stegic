@@ -1,0 +1,7 @@
+.footerBg {
+  inset: unset !important;
+}
+
+.footerBg {
+  @apply -rotate-[57deg] -right-[55%] md:-right-[450px] -top-[30%] md:-top-[13%] !important;
+}

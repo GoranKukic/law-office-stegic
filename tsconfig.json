@@ -19,6 +19,15 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+   "**/*.ts",
+    "**/*.tsx",
+    "components/UI/CtaButton.tsx",
+    "components/Navbar/Navbar.tsx",
+    "components/Navbar/NavLinks.tsx",
+    "components/Navbar/NavLinksMobile.tsx",
+    "components/Footer/Footer.tsx",
+  ],
   "exclude": ["node_modules"]
 }
