@@ -110,7 +110,7 @@ const Navbar = () => {
             />
             <span
               className={`h-1 w-full bg-black rounded-lg transition-all duration-300 ease-in-out ${
-                open ? 'w-[0px]' : 'w-full'
+                open ? 'w-0 hidden' : 'w-full block'
               }`}
             />
             <span

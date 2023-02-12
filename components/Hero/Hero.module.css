@@ -6,6 +6,15 @@
     background: linear-gradient(to bottom, rgb(0, 0, 0, 0.75), rgb(0, 0, 0,0.75));
 }
 
-.heroHeadline{
-    text-align-last: justify;
-}
+@media only screen and (min-width: 900px) {
+    .heroHeadline :global {
+        text-align-last: justify;
+    }
+  }
+
+  @media only screen and (max-width: 899px) {
+    .heroHeadline :global {
+        text-align: center;
+        font-size: 52px;
+    }
+  }
