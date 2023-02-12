@@ -40,7 +40,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ ariaId, id }) => {
             inputProps={{ id: generatedId }}
             onChange={changeLanguage}
             variant="standard"
-            className="text-gray"
+            className="text-goldBg !important"
           >
             <MenuItem value="en" className="text-gray">
               EN

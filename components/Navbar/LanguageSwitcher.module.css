@@ -16,3 +16,11 @@
   outline: 'none';
   background: transparent;
 }
+
+.inputWrapper :global div {
+ @apply text-goldBg;
+}
+
+.inputWrapper :global svg path{
+  @apply fill-goldBg;
+ }

@@ -7,6 +7,7 @@ import Image from 'next/image';
 // import UpperBg from '../../public/images/heroUpperBg.webp';
 import heroBg from '../../public/images/heroBg.jpg';
 import styles from './Hero.module.css'
+import Title from '../UI/Title';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -45,7 +46,7 @@ const Hero = () => {
           data-aos-easing="ease-in-out"
           className="max-w-[855px] w-full flex flex-col gap-[20px]"
         >
-          <span><h4 className='text-white uppercase text-[16px] font-semibold ml-0 mr-auto'>Law & insurance specialists</h4></span>
+          <Title  title={t.heroTitle} className='text-white mb-[10px]'/>
           <span className='max-w-[855px] w-full'><h2 className={`${styles.heroHeadline} capitalize m-0 w-full text-goldBg text-[76px] font-["Prata"] text-justify`}>Audiatur et altera pars</h2></span>
           <span className='max-w-[570px] ml-auto mr-0'><p className='text-white text-[16px] font-normal text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus nulla id arcu aliquam molestie. Mauris a lorem id nisi scelerisque commodo id eget libero. Proin tristique ex tortor.</p></span>
 

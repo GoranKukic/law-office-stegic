@@ -126,7 +126,7 @@ const Footer = () => {
         <div className="flex flex-col flex-col-reverse items-center md:flex-row  md:flex-nowrap justify-between text-[14px] font-normal text-gray font-['Open Sans'] leadeing-[155%]">
           <div>
             <p className="text-center">
-              Premium Roof {new Date().getFullYear()} <wbr /> &copy; |
+              Made by Goran Kukić {new Date().getFullYear()} <wbr /> &copy; |
               {t.footerDesc}
             </p>
           </div>

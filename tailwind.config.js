@@ -39,6 +39,9 @@ module.exports = {
       md: { min: '768px' },
       // => @media (min-width: 768px) { ... }
 
+      ipad: { min: '899px' },
+      // => @media (min-width: 768px) { ... }
+
       lg: { min: '1024px' },
       // => @media (min-width: 1024px) { ... }
 
@@ -59,6 +62,8 @@ module.exports = {
       backgroundImage: {
         'hero-gradient':
           'linear-gradient(to bottom, transparent 0%, black 100%)',
+        'aboutUs-gradient':
+          'linear-gradient(to right, white 50%, #967e44 50%)',
         'footer-gradient':
         'linear-gradient(to right, black 80%, #967e44 20%)',
       },
