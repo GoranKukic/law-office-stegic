@@ -78,7 +78,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ open, setOpen }) => {
           href="#"
           to="contact"
           smooth={true}
-          offset={-80}
+          offset={-290}
           duration={500}
           onClick={() =>
             setTimeout(() => {

@@ -84,7 +84,7 @@ const Navbar = () => {
             to="contact"
             activeClass="active"
             smooth={true}
-            offset={-80}
+            offset={-250}
             duration={500}
           >
             <CtaButton />

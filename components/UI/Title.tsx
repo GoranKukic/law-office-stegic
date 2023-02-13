@@ -1,5 +1,5 @@
 interface TitleProps {
-    title: string;
+    title?: string;
     className?: string;
   }
   

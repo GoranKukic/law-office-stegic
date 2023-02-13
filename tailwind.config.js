@@ -20,7 +20,7 @@ module.exports = {
       brown: '#B0793F',
       white: '#FFFFFF',
       'solid-white': '#F8FAFB',
-      grayBackground: '#F6F6F6',
+      grayBackground: '#e0dbcf',
     },
 
     screens: {
@@ -60,12 +60,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        'aboutUsBg': "url('/images/aboutUsBg.png')",
         'hero-gradient':
           'linear-gradient(to bottom, transparent 0%, black 100%)',
         'aboutUs-gradient':
           'linear-gradient(to right, white 50%, #967e44 50%)',
         'footer-gradient':
-        'linear-gradient(to right, black 80%, #967e44 20%)',
+        'linear-gradient(to right, black 50%, #967e44 20%)',
       },
       filter: ['var(--tw-invert)'],
       content: {

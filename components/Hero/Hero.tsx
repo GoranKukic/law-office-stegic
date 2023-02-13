@@ -41,8 +41,8 @@ const Hero = () => {
       />
       <div className="relative max-w-[1172px] w-full bg-transparent flex justify-center z-20 px-4">
         <div
-          data-aos="fade-down"
-          data-aos-duration="500"
+          data-aos="fade-up"
+          data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           className="max-w-[855px] w-full flex flex-col gap-[20px]"
         >

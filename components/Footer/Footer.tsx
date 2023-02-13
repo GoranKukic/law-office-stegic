@@ -19,7 +19,8 @@ const Footer = () => {
   const t = locale === 'en' ? en : sr;
   return (
     <div className=" bg-footer-gradient flex justify-center items-center flex flex-col overflow-hidden !important">
-      <div className="max-w-[1172px] w-full mx-auto my-[55px] px-4 z-20">
+      <div className='h-full bg-black max-w-[1172px] w-full'>
+      <div className=" w-full mx-auto my-[55px] px-4 z-20">
         <div className="mb-[15px] flex items-left">
           <Link
             href="#"
@@ -139,7 +140,9 @@ const Footer = () => {
             </NextLink>
           </div>
         </div>
+      
       </div>
+</div>
     </div>
   );
 };
