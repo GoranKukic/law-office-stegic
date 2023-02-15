@@ -24,7 +24,7 @@ const WhyWe = () => {
       <Parallax
         bgImage={WhyWeBg.src}
         strength={500}
-        className={styles.paralaxContainer}
+        className={`${styles.paralaxContainer} `}
       >
         <div
                         data-aos="fade-up"

@@ -1,6 +1,6 @@
 
 // import styles from './AboutUs.module.css'
-import styles from './WhyWe.module.css'
+import styles from './AboutUs.module.css'
 import AOS from 'aos';
 import { useRouter } from 'next/router';
 import en from '../../locales/en';
@@ -25,7 +25,7 @@ const AboutUs = () => {
       id="about-us"
       className="min-h-[650px] bg-aboutUs-gradient flex justify-center items-center flex flex-col overflow-hidden">
       <div className=" relative bg-white h-full max-w-[1172px] w-full mx-auto my-[0] px-4 z-20">
-      <div className='absolute -right-[230px] -bottom-[2px] w-[600px] opacity-[35%] ipad:opacity-100'
+      <div className={` ${styles.aboutUsImg} absolute -right-[230px] -bottom-[2px] w-[600px]`}
         data-aos="fade-left"
         data-aos-duration="1000"
           data-aos-easing="ease-in-out">

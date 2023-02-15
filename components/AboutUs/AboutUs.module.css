@@ -1,0 +1,3 @@
+.aboutUsImg :global {
+    @apply opacity-30 ipad:opacity-100 !important;
+}
