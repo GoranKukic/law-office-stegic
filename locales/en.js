@@ -7,6 +7,8 @@ const en = {
   heroTitle:'Law & insurance specialist',
   aboutUsTitle:"About Us",
   aboutUsHeadline:"We take care of our clients",
+  ourServicesTitle: "Our services",
+  ourServicesHeadline: "Areas of work",
   whyWeTitle:"Why we",
   whyWeHeadline:"Why you should hire us?",
   whyWeCard1Headline: "Money save",

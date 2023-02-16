@@ -7,6 +7,8 @@ const sr = {
   heroTitle:'Ekspert za Pravo i osiguranje',
   aboutUsTitle:"O Nama",
   aboutUsHeadline:"Mi brinemo o našim klijentima",
+  ourServicesTitle: "Naše usluge",
+  ourServicesHeadline: "Oblasti rada",
   whyWeTitle:"Zašto mi?",
   whyWeHeadline:"Zašto nas trebate angažovati?",
   whyWeCard1Headline: "Ušteda novca",

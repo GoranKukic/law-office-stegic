@@ -16,6 +16,8 @@ module.exports = {
       blue: '#1A8CCC',
       black: '#000000',
       'solid-black': '#161616',
+      lightBlack: '#1c1e1f',
+      solidGray: "#333",
       gray: '#606060',
       brown: '#B0793F',
       white: '#FFFFFF',
@@ -69,7 +71,7 @@ module.exports = {
         'aboutUs-gradient':
           'linear-gradient(to right, white 50%, #967e44 50%)',
         'footer-gradient':
-        'linear-gradient(to right, black 50%, #967e44 20%)',
+        'linear-gradient(to right, #1c1e1f 50%, #967e44 50%)',
       },
       filter: ['var(--tw-invert)'],
       content: {

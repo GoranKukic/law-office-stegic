@@ -19,7 +19,7 @@ const WhyWe = () => {
   return (
     <div
       id="why-we"
-      className="relative bg-[#76b5c5] min-h-[700px] w-full flex flex-row justify-center items-center relative overflow-hidden relative"
+      className="relative bg-solidGray min-h-[700px] w-full flex flex-row justify-center items-center relative overflow-hidden relative"
     >
       <Parallax
         bgImage={WhyWeBg.src}

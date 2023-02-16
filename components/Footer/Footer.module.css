@@ -5,3 +5,15 @@
 .footerBg {
   @apply -rotate-[57deg] -right-[55%] md:-right-[450px] -top-[30%] md:-top-[13%] !important;
 }
+
+.contactList:hover svg {
+  @apply fill-goldBg transform transition duration-700 ease-in-out;
+}
+
+.contactListV2:hover svg path{
+  @apply stroke-goldBg transform transition duration-700 ease-in-out;
+}
+
+.contactListV3:hover svg{
+  background-size: 20px 20px !important;
+}
