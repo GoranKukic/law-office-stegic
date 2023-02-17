@@ -25,6 +25,8 @@ const Navbar = () => {
     }
   };
 
+  const uniqueId = `language-switcher-${new Date().getTime()}`;
+
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'en' ? en : sr;

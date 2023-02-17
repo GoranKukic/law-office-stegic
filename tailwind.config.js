@@ -18,6 +18,7 @@ module.exports = {
       'solid-black': '#161616',
       lightBlack: '#1c1e1f',
       solidGray: "#333",
+      footerText: "#878787",
       gray: '#606060',
       brown: '#B0793F',
       white: '#FFFFFF',

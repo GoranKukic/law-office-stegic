@@ -19,6 +19,8 @@ const MobileNav: React.FC<MobileNavProps> = ({ open, setOpen }) => {
   const { locale } = router;
   const t = locale === 'en' ? en : sr;
 
+  const uniqueId = `language-switcher-${new Date().getTime()}`;
+
   return (
     <div
       className={`absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-fill h-screen bg-white transform ${
@@ -89,7 +91,7 @@ const MobileNav: React.FC<MobileNavProps> = ({ open, setOpen }) => {
           <CtaButton />
         </Link>
         <div className="flex justify-center items-center  my-4">
-        <LanguageSwitcher ariaId="language-switcher-mobile" id="mobile"/>
+        <LanguageSwitcher ariaId="language-switcher-mobile" id="mobile" />
         </div>
       </div>
     </div>

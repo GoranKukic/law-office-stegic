@@ -14,7 +14,6 @@ interface LanguageSwitcherProps {
   id: string;
 }
 
-
 const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ ariaId, id }) => {
 
   const [generatedId] = useState(`language-switcher-${id}-${uuidv4()}`);
@@ -29,15 +28,16 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ ariaId, id }) => {
   };
 
   return (
-    <Box sx={{ minWidth: 50 }} className="relative">
+    <div id={generatedId}>
+    <Box sx={{ minWidth: 50 }} className="relative" >
       <FormControl fullWidth>
         <div className={`${styles.inputWrapper} relative group`}>
           <span className="absolute -bottom-1 left-0 w-0 h-[3px] bg-goldBg transition-all group-hover:w-full"></span>
           <Select
-            id={generatedId}
+            id={generatedId + "selectId"}
             aria-labelledby={ariaId}
             value={locale}
-            inputProps={{ id: generatedId }}
+            inputProps={{ id: generatedId + "inputId" }}
             onChange={changeLanguage}
             variant="standard"
             className="text-goldBg !important"
@@ -52,6 +52,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ ariaId, id }) => {
         </div>
       </FormControl>
     </Box>
+    </div>
   );
 };
 
