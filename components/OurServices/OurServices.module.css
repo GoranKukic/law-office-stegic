@@ -1,3 +1,6 @@
 .OSwrapper:global {
     @apply max-w-[1140px] !important;
 }
+.ourServicesImgWapper:global {
+   @apply  ms:max-h-[45%] !important;
+}

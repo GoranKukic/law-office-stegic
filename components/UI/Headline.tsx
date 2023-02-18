@@ -4,10 +4,14 @@ interface HeadlineProps {
   underline?: any;
 }
 
-const Headline: React.FC<HeadlineProps> = ({ headline, className, underline }) => {
+const Headline: React.FC<HeadlineProps> = ({
+  headline,
+  className,
+  underline,
+}) => {
   return (
     <h2
-      className={`${className} text-[32px] md:text-[42px] font-normal leading-[155%]  font-['Prata'] whitespace-normal`}
+      className={`text-[32px] md:text-[42px] font-normal leading-[155%] font-['Prata'] whitespace-normal ${className} `}
     >
       {/* {headline} */}
       {Array.isArray(headline)

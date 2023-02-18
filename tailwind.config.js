@@ -31,7 +31,7 @@ module.exports = {
       // => @media (min-width: 320px) { ... }
 
       ms: { min: '390px' },
-      // => @media (min-width: 320px) { ... }
+      // => @media (min-width: 390px) { ... }
 
       mp: { min: '480px' },
       // => @media (min-width: 480px) { ... }
