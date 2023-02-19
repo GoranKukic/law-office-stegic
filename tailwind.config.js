@@ -10,7 +10,7 @@ module.exports = {
   mode: 'jit',
   theme: {
     colors: {
-      goldText: '#dcc474',
+      goldButton: '#B29553',
       goldBg: ' #967e44',
       transparent: 'transparent',
       blue: '#1A8CCC',
@@ -19,6 +19,7 @@ module.exports = {
       lightBlack: '#1c1e1f',
       solidGray: "#333",
       footerText: "#878787",
+      ourServicesText: "#ADADAD",
       gray: '#606060',
       brown: '#B0793F',
       white: '#FFFFFF',

@@ -1,5 +1,5 @@
-import LogoImg from '../../public/images/logo2.png';
-import Image from 'next/image';
+import LogoImg from "../../public/images/logo2.png";
+import Image from "next/image";
 
 const Logo = () => {
   return (
@@ -7,9 +7,14 @@ const Logo = () => {
       <Image
         src={LogoImg}
         alt="Logo"
-        sizes="(max-width: 768px) 50vw, 100vw"
         fill
-        className="object-contain ovbject-left w-auto h-auto"
+        priority
+        className="object-contain object-left"
+        sizes="(min-width: 768px) 50vw,
+               (min-width: 1200px) 30vw,
+               100vw"
+        placeholder="blur"
+        blurDataURL="../../public/images/logo2.png"
       />
     </div>
   );

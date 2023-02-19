@@ -42,10 +42,10 @@ const OurServices = () => {
   }, []);
 
   return (
-    <div id="our-services" className="w-full bg-solidGray">
+    <div id="our-services" className="w-full bg-lightBlack">
       <div className="max-w-[1140px] mx-auto">
         <div
-          className={`${styles.OSwrapper} container bg-solidGray flex flex-nowrap items-end w-[600%] h-[100vh] relative`}
+          className={`${styles.OSwrapper} container bg-lightBlack flex flex-nowrap items-end w-[600%] h-[100vh] relative`}
         >
           <div
             className={` pt-[110px] absolute top-[0px] left-0 flex w-[100vw] cont:w-[100%] justify-center items-center`}
@@ -64,7 +64,7 @@ const OurServices = () => {
             </div>
           </div>
           {/* Contract Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] bg-red w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -83,8 +83,8 @@ const OurServices = () => {
                   {t.ourServicesCard1Headline}
                 </h3>
               </div>
-              <div className="mx-auto max-w-[650px] w-full mt-[20px] text-footerText">
-                <p>
+              <div className="mx-auto max-w-[650px] w-full mt-[20px]">
+                <p className="text-ourServicesText bg-lightBlack">
                   Mauris suscipit metus eget sapien laoreet, non viverra nisi
                   sagittis. Duis elit enim, maximus sit amet iaculis ut,
                   porttitor at eros. Lorem ipsum dolor sit amet, consectetur
@@ -95,7 +95,7 @@ const OurServices = () => {
             </div>
           </section>
           {/* Indemnity Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] bg-red w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div
                 className={`relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto`}
@@ -116,8 +116,8 @@ const OurServices = () => {
                   {t.ourServicesCard2Headline}
                 </h3>
               </div>
-              <div className="mx-auto max-w-[650px] w-full mt-[20px] text-footerText">
-                <p>
+              <div className="mx-auto max-w-[650px] w-full mt-[20px]">
+                <p className="text-ourServicesText bg-lightBlack">
                   Mauris suscipit metus eget sapien laoreet, non viverra nisi
                   sagittis. Duis elit enim, maximus sit amet iaculis ut,
                   porttitor at eros. Lorem ipsum dolor sit amet, consectetur
@@ -128,7 +128,7 @@ const OurServices = () => {
             </div>
           </section>
           {/* Family Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] bg-red w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -147,8 +147,8 @@ const OurServices = () => {
                   {t.ourServicesCard3Headline}
                 </h3>
               </div>
-              <div className="mx-auto max-w-[650px] w-full mt-[20px] text-footerText">
-                <p>
+              <div className="mx-auto max-w-[650px] w-full mt-[20px]">
+                <p className="text-ourServicesText bg-lightBlack">
                   Mauris suscipit metus eget sapien laoreet, non viverra nisi
                   sagittis. Duis elit enim, maximus sit amet iaculis ut,
                   porttitor at eros. Lorem ipsum dolor sit amet, consectetur
@@ -159,7 +159,7 @@ const OurServices = () => {
             </div>
           </section>
           {/* Penalty Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] bg-red w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -178,8 +178,8 @@ const OurServices = () => {
                   {t.ourServicesCard4Headline}
                 </h3>
               </div>
-              <div className="mx-auto max-w-[650px] w-full mt-[20px] text-footerText">
-                <p>
+              <div className="mx-auto max-w-[650px] w-full mt-[20px]">
+                <p className="text-ourServicesText bg-lightBlack">
                   Mauris suscipit metus eget sapien laoreet, non viverra nisi
                   sagittis. Duis elit enim, maximus sit amet iaculis ut,
                   porttitor at eros. Lorem ipsum dolor sit amet, consectetur
@@ -190,7 +190,7 @@ const OurServices = () => {
             </div>
           </section>
           {/* Other Law Areas Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] bg-red w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -209,8 +209,8 @@ const OurServices = () => {
                   {t.ourServicesCard5Headline}
                 </h3>
               </div>
-              <div className="mx-auto max-w-[650px] w-full mt-[20px] text-footerText">
-                <p>
+              <div className="mx-auto max-w-[650px] w-full mt-[20px]">
+                <p className="text-ourServicesText bg-lightBlack">
                   Mauris suscipit metus eget sapien laoreet, non viverra nisi
                   sagittis. Duis elit enim, maximus sit amet iaculis ut,
                   porttitor at eros. Lorem ipsum dolor sit amet, consectetur
