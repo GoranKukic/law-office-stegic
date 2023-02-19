@@ -43,12 +43,12 @@ const OurServices = () => {
 
   return (
     <div id="our-services" className="w-full bg-lightBlack">
-      <div className="max-w-[1140px] mx-auto">
+      <div>
         <div
-          className={`${styles.OSwrapper} container bg-lightBlack flex flex-nowrap items-end w-[600%] h-[100vh] relative`}
+          className={`${styles.OSwrapper} container bg-lightBlack flex flex-nowrap items-end w-[500%] h-[100vh] relative`}
         >
           <div
-            className={` pt-[110px] absolute top-[0px] left-0 flex w-[100vw] cont:w-[100%] justify-center items-center`}
+            className={`pt-[110px] absolute top-[0px] left-0 flex w-[100vw] cont:w-[100%] justify-center items-center`}
           >
             <div className="flex flex-col w-full">
               <Title
