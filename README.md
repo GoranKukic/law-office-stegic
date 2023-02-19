@@ -20,7 +20,7 @@ This project is builted with Next.js, React, TypeScript, Tailwind CSS, and i18n:
 
 ## Optimization & Performance
 
-![Screnshoot](/public/images/screenshot.jpg)
+![Screnshoot](/public/images/Screenshot_25.png)
 
 ## Getting Started
 
