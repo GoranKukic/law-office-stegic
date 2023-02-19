@@ -8,8 +8,8 @@ import { useRouter } from "next/router";
 import en from "../../locales/en";
 import sr from "../../locales/sr";
 import Image from "next/image";
-import indemnityPhoto from "../../public/images/indemnity.jpg";
 import contractPhoto from "../../public/images/contract.jpg";
+import indemnityPhoto from "../../public/images/indemnity.jpg";
 import familyPhoto from "../../public/images/family.jpg";
 import penaltyPhoto from "../../public/images/penalty.jpg";
 import otherLawAreasPhoto from "../../public/images/otherLawAreas.jpg";
@@ -64,7 +64,8 @@ const OurServices = () => {
             </div>
           </div>
           {/* Contract Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+            {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -72,6 +73,10 @@ const OurServices = () => {
                   alt={"Contract Photo"}
                   fill
                   className="absoolute object-cover rounded-lg"
+                  sizes="(min-width: 768px) 50vw,
+                        100vw"
+                  placeholder="blur"
+                  blurDataURL="../../public/images/contract.jpg"
                 />
               </div>
               <div className="relative">
@@ -95,7 +100,8 @@ const OurServices = () => {
             </div>
           </section>
           {/* Indemnity Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+            {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div
                 className={`relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto`}
@@ -105,6 +111,10 @@ const OurServices = () => {
                   alt={"Indemnity Photo"}
                   fill
                   className="absoolute object-cover rounded-lg"
+                  sizes="(min-width: 768px) 50vw,
+                        100vw"
+                  placeholder="blur"
+                  blurDataURL="../../public/images/indemnity.jpg"
                 />
               </div>
               <div className="relative">
@@ -128,7 +138,8 @@ const OurServices = () => {
             </div>
           </section>
           {/* Family Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+            {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -136,6 +147,10 @@ const OurServices = () => {
                   alt={"Family Photo"}
                   fill
                   className="absoolute object-cover rounded-lg"
+                  sizes="(min-width: 768px) 50vw,
+                        100vw"
+                  placeholder="blur"
+                  blurDataURL="../../public/images/family.jpg"
                 />
               </div>
               <div className="relative">
@@ -159,7 +174,8 @@ const OurServices = () => {
             </div>
           </section>
           {/* Penalty Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+            {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -167,6 +183,10 @@ const OurServices = () => {
                   alt={"Penalty Photo"}
                   fill
                   className="absoolute object-cover rounded-lg"
+                  sizes="(min-width: 768px) 50vw,
+                        100vw"
+                  placeholder="blur"
+                  blurDataURL="../../public/images/penalty.jpg"
                 />
               </div>
               <div className="relative">
@@ -190,7 +210,8 @@ const OurServices = () => {
             </div>
           </section>
           {/* Other Law Areas Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+            {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
             <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
@@ -198,6 +219,10 @@ const OurServices = () => {
                   alt={"Other Law Areas Photo"}
                   fill
                   className="absoolute object-cover rounded-lg"
+                  sizes="(min-width: 768px) 50vw,
+                        100vw"
+                  placeholder="blur"
+                  blurDataURL="../../public/images/otherLawAreas.jpg"
                 />
               </div>
               <div className="relative">

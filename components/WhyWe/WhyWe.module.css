@@ -1,21 +1,8 @@
-/* .paralaxContainer :global  {
-    position: unset !important;
-    overflow: visible !important;
-    margin: 100px auto 220px auto;
-} 
-
-.paralaxContainer :global img {
-    object-fit: cover !important;
-    width: 100vw !important;
-} 
- */
-
-
  .paralaxContainer {
     height: 100vh;
     width: 100vw;
     position: fixed;
-    top: 0;
+    top: 80px;
     left: 0;
     z-index: -1;
  }

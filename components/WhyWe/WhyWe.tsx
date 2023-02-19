@@ -6,7 +6,6 @@ import en from "../../locales/en";
 import sr from "../../locales/sr";
 import Image from "next/image";
 import WhyWeBg from "../../public/images/whyWeBg.jpg";
-// import { Parallax } from "react-parallax";
 import Title from "../UI/Title";
 import Headline from "../UI/Headline";
 import MoneySaveImg from "../../public/images/piggy-bank.png";
@@ -32,11 +31,6 @@ const WhyWe = () => {
           sizes="100vw"
         />
       </div>
-      {/* <Parallax
-        bgImage={WhyWeBg.src}
-        strength={500}
-        className={`${styles.paralaxContainer} `}
-      > */}
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
