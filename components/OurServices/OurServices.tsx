@@ -64,9 +64,9 @@ const OurServices = () => {
             </div>
           </div>
           {/* Contract Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh]">
             {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
-            <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
+            <div className="flex flex-col justify-center max-w-[932px] w-full h-[100vh] pt-[180px] px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
                   src={contractPhoto}
@@ -100,9 +100,9 @@ const OurServices = () => {
             </div>
           </section>
           {/* Indemnity Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh]">
             {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
-            <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
+            <div className="flex flex-col justify-center max-w-[932px] w-full h-[100vh] pt-[180px] px-4">
               <div
                 className={`relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto`}
               >
@@ -138,9 +138,9 @@ const OurServices = () => {
             </div>
           </section>
           {/* Family Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh]">
             {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
-            <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
+            <div className="flex flex-col justify-center max-w-[932px] w-full h-[100vh] pt-[180px] px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
                   src={familyPhoto}
@@ -174,9 +174,9 @@ const OurServices = () => {
             </div>
           </section>
           {/* Penalty Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh]">
             {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
-            <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
+            <div className="flex flex-col justify-center max-w-[932px] w-full h-[100vh] pt-[180px] px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
                   src={penaltyPhoto}
@@ -210,9 +210,9 @@ const OurServices = () => {
             </div>
           </section>
           {/* Other Law Areas Law */}
-          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh] pt-[180px]">
+          <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[100vh]">
             {/* <section className="panel flex relative justify-center items-center text-center text-white m-0 p-0 min-w-[100vw] cont:min-w-[100%] w-full h-[calc(100%-180px)]"> */}
-            <div className="flex flex-col justify-center max-w-[932px] w-full h-full px-4">
+            <div className="flex flex-col justify-center max-w-[932px] w-full h-[100vh] pt-[180px] px-4">
               <div className="relative max-h-[55%] h-full max-w-[500px] w-full mr-0 ml-auto">
                 <Image
                   src={otherLawAreasPhoto}
