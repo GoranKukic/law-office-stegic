@@ -30,12 +30,13 @@ const Footer = () => {
           <div className="flex flex-col gap-[35px] md:gap-[0px] md:flex-row">
             <div className="flex-col max-w-[500px] w-full pr-2">
               <div className="max-w-[390px] w-full mb-[15px] md:mb-[25px]">
-                <Paragraph
-                  paragraph={
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium nulla metus, quis potenti vitae. Dolor eget suspendisse vulputate feugiat."
+                <p
+                  className={
+                    "text-[16px] font-normal  font-['Open Sans'] leadeing-[155%]` text-footerText text-left"
                   }
-                  className={"text-footerText flex text-left"}
-                />
+                >
+                  {t.footerText}
+                </p>
               </div>
             </div>
             <div className="max-w-[210px] w-full px-2">

@@ -53,10 +53,7 @@ const Hero = () => {
           </span>
           <span className="max-w-[570px] ml-auto mr-0">
             <p className="text-white text-[16px] font-normal text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse tempus nulla id arcu aliquam molestie. Mauris a lorem
-              id nisi scelerisque commodo id eget libero. Proin tristique ex
-              tortor.
+              {t.heroDescription}
             </p>
           </span>
         </div>

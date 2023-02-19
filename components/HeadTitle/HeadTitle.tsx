@@ -12,7 +12,7 @@ const HeadTitle = () => {
       />
       <meta
         name="keywords"
-        content="Advokat, Bojan, Stegic, Novi Sad, Pravo, naknada stete, parnica, razvod, saobracajna nezgoda, ugovor"
+        content="Advokat, Bojan, Stegic, Novi Sad, advokatska kancelarija, pravo, naknada stete, parnica, razvod, saobracajna nezgoda, ugovor, ostavina, ostavinska, rasprava, nezgoda"
       />
     </Head>
   );

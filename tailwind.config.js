@@ -34,6 +34,9 @@ module.exports = {
       ms: { min: '390px' },
       // => @media (min-width: 390px) { ... }
 
+      mx: { min: '420px' },
+      // => @media (min-width: 390px) { ... }
+
       mp: { min: '480px' },
       // => @media (min-width: 480px) { ... }
 

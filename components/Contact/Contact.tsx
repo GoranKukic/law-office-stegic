@@ -31,7 +31,7 @@ const Contact = () => {
           <Headline headline={t.ctaHeadline} className={"mb-[20px]"} />
         </div>
         <form
-          action="https://formspree.io/f/xknagknk"
+          action="https://formspree.io/f/mayzoekz"
           method="POST"
           className="max-w-[800px] w-full mx-auto"
         >
