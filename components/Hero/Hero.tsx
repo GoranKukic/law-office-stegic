@@ -33,7 +33,7 @@ const Hero = () => {
         priority
         className=" object-cover object-top object-left h-full"
         placeholder="blur"
-        blurDataURL="/images/heroUpperBg.webp"
+        blurDataURL="/images/heroBg.jpg"
         sizes="100vw"
       />
       <div className="relative max-w-[1172px] w-full bg-transparent flex justify-center z-20 px-4">
